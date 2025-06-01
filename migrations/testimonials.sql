@@ -7,4 +7,4 @@ create table if not exists tct_mojo_testimonials (
 );
 
 -- 1 down
-drop table if exists posts;
+drop table if exists tct_mojo_testimonials;
