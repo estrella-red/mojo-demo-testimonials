@@ -8,6 +8,9 @@ use MojoDemoTestimonials::Model::DB;
 # This method will run once at server start
 sub startup ($self) {
 
+  # load autoreload plugin;
+  $self->plugin('AutoReload');
+
   # Load configuration from config file
   my $config = $self->plugin('Config'); # or NotYAMLConfig
 
