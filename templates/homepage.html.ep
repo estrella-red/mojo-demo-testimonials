@@ -1,0 +1,8 @@
+% layout 'master';
+% title 'Home Page';
+<a href="/logout">Log Out</a>
+<h2><%= $msg %></h2>
+<h5 class="w3-padding-32">
+  This is my personal site built with Mojolicious. You can provide testimonials
+  using the link <a href="/testimonials">here</a>. 
+</h5>

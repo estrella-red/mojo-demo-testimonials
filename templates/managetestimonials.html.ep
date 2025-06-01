@@ -1,0 +1,26 @@
+% layout 'master';
+% title 'View Testimonials';
+<a href="/">Home</a>&nbsp;&nbsp;<a href="/logout">Log Out</a>
+
+<h1><%= $msg %></h1>
+
+<center>
+<form action="/testimonials" method="post">
+    <textarea id="userReview" name="userReview" rows="8" cols="50">
+      Please enter your testimonial here
+    </textarea>
+    <div>
+      <input type="reset" value="Clear" />
+      <input type="submit" value="Publish">
+    </div>
+</form>
+</center>
+
+<table width="100%" align="center" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <th>Testimonials</th>
+  </tr>
+
+  <%== $alltestimonials %>
+
+</table>

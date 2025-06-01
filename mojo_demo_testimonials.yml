@@ -1,0 +1,4 @@
+---
+secrets:
+  - 56Eih9mRAjtIpcwTh0BeIlQXfloz0J3a4iiwe542-T_X90oNhD69lJFAAHq-dY5kpDhKbcoTI_dFErhWEw88gchuSf2QFjd49RYwzsu9_qz6GOMzPXtZOdxl6MaHrendtRz9DvLUqJOEFh6MWZ1_i7l9qx4PZouUM7ZfMXxOsEM
+mysql: 'mysql://raj:adm1n@localhost/mojo-testimonials-demo'
